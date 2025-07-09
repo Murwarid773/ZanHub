@@ -1,0 +1,120 @@
+
+Body {
+  Font-family: ‘Segoe UI’, sans-serif;
+  Line-height: 1.7;
+  Background-color: #a9ee9cb2;
+  Color: #333;
+}
+
+H1, h2, h5 {
+  Font-weight: 700;
+}
+
+/* Navbar */
+.navbar {
+  Box-shadow: 0 4px 8px rgba(99, 180, 96, 0.514);
+}
+
+.nav-link {
+  Margin-left: 10px;
+  Transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  Color: #e5f3eae5 !important;
+}
+
+/* Hero Section */
+#hero {
+  Background: linear-gradient(to right, #9dd19c, #88caab);
+  Padding-top: 100px;
+  Padding-bottom: 100px;
+}
+
+#hero h1 {
+  Color: #4f7763cc;
+  Font-size: 3rem;
+}
+
+#hero .btn {
+  Padding: 12px 30px;
+  Font-size: 1.1rem;
+  Transition: background-color 0.3s ease;
+}
+
+#hero .btn:hover {
+  Background-color: #29b453;
+}
+
+/* Features Section */
+#features .card {
+  Border: none;
+  Box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  Transition: transform 0.3s ease, box-shadow 0.3s ease;
+  Height: 100%;
+}
+
+#features .card:hover {
+  Transform: translateY(-5px);
+  Box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+#features .card-title {
+  Color: #394441de;
+}
+
+/* Mission Section */
+#mission {
+  Background-color: #a6dab7d3;
+  Padding: 60px 0;
+}
+
+#mission h2 {
+  Color: rgb(16, 143, 16)
+  ;
+}
+
+#mission p {
+  Max-width: 800px;
+  Margin: 0 auto;
+  Font-size: 1.1rem;
+}
+
+/* Contact Form */
+#contact {
+  Background-color: #a9ee9cb2;
+  Padding-top: 60px;
+  Padding-bottom: 60px;
+}
+
+#contact h2 {
+  Color: rgb(16, 143, 16)
+}
+
+#contact .form-control {
+  Border-radius: 8px;
+  Box-shadow: none;
+  Border: 1px solid #034d0c;
+  Transition: border-color 0.3s ease;
+}
+
+#contact .form-control:focus {
+  Border-color: green
+  Box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.15);
+}
+
+/* Footer */
+Footer {
+  Background-color: #212529;
+  Color: #ccc;
+  Font-size: 0.9rem;
+  Letter-spacing: 0.5px;
+}
+
+Footer small {
+  Color: #adb5bd;
+}
+
+
+
+
